@@ -18,6 +18,24 @@
     height: 100px;
     background-color: rgba(235, 235, 235, 0.31);
     border-radius: 28px;
+    display: flex;
+}
+
+.redonda {
+    border-radius: 50%;
+    height: 77px;
+    width: 77px;
+    margin: 0 20px;
+    object-fit: cover;
+}
+#destaques figure{
+    margin: 2px 20px;
+    text-align: center;
+
+}
+#destaques figcaption{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 #feed {
@@ -27,7 +45,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 4px;
-
+    
 
 }
 
@@ -48,12 +66,7 @@
     border-radius: 50%;
 }
 
-.redonda {
-    border-radius: 50%;
-    height: 77px;
-    width: 77px;
-    margin: 0 50px;
-}
+
 
 #threads {
     background-color: rgba(198, 198, 198, 0.396);
