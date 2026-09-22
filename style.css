@@ -5,6 +5,23 @@
     margin: 0 auto;
 
 }
+#link {
+    background-color: rgba(198, 198, 198, 0.396);
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    box-shadow: 4px 3px 6px grey;
+    padding: 6px 10px;
+    border-radius: 18px;
+    margin-block: 8px;
+    cursor: pointer;
+}
+#link:hover{
+    background-color: aliceblue;
+    box-shadow: 4px 3px 6px rgb(197, 196, 196);
+}
 
 #cabecalho {
     width: 800px;
@@ -46,7 +63,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 4px;
     
-
+    
 }
 
 #fotodeperfil {
@@ -58,6 +75,8 @@
 #textodeperfil {
     height: 600px;
     width: 500px;
+    margin: 0 50px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #perfil {
@@ -97,6 +116,16 @@
     font-size: 14px;
     font-weight: bold;
     border: 2px solid #454545;
+    border-radius: 4px;
+    img{
+        z-index: 1;
+        transition: transform 0.5s ease;
+    }
+    img:hover{
+        z-index: 10;
+        transform: scale(1.2);
+        border-radius: 8px;
+    }
 }
 .postes img{
     height:347px;
